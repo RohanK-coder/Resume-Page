@@ -1,0 +1,56 @@
+img {
+    width: 40%;
+    height: 500px;
+}
+
+#knowme {
+    display: flex;
+
+    height: 350px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content: space-around;
+}
+
+#box1 {
+    width: 5%;
+    height: 350px;
+    background-color: blue;
+}
+
+#box2 {
+    background-color: aqua;
+    flex-grow: 1;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box1 img {
+    height: 100%;
+    width: 100%;
+}
+
+#navigation {
+    position: fixed;
+    display: inline-block;
+
+
+    background-color: black;
+}
+
+#knw {
+
+    margin-left: 1%;
+
+}
+
+a {
+    text-decoration: none;
+}
